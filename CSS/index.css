@@ -1,10 +1,10 @@
  .ConstructionBanner{
     text-align: center;
-    padding: 10px;
     background-color: rgb(218, 163, 55);
-
+    padding-left: 0px;
+    padding-right: 0px;
     position: fixed;
-    width: fill-available;
+    width: 60vh;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -29,6 +29,8 @@
   font-size: 20px;
   font-weight: 900;
   color: white;
+  width: 60%;
+  text-align: center;
  }
 
  .ConstructionBannerLastEdit{
@@ -36,6 +38,7 @@
   font-weight: 900;
   color: white;
   display: block;
+  text-align: center;
  }
  
  .Header_title{
