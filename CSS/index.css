@@ -46,8 +46,6 @@
   }
 
   .MainParaWarning{
-    z-index: -1;
-
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -59,15 +57,13 @@
   }
 
   .ConstructionImageContainer{
-    position: relative;
-    z-index: -2;
 
     display: block;
     width: fill-available;  
     margin-top: 0px;
     height: 70vh;
 
-    margin-top: -160px;
+    margin-top: 20px;
   }
 
   .ConstructionPicture{
