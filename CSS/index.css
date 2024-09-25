@@ -4,6 +4,7 @@
     background-color: rgb(218, 163, 55);
 
     position: fixed;
+    width: fill-available;
     top: 0px;
     left: 0px;
     width: 100%;
