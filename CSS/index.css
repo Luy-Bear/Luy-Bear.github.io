@@ -1,10 +1,11 @@
  .ConstructionBanner{
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: rgb(218, 163, 55);
-    padding-left: 0px;
-    padding-right: 0px;
+
     position: fixed;
-    width: 60vh;
+    width: fill-available;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -30,7 +31,6 @@
   font-weight: 900;
   color: white;
   width: 60%;
-  text-align: center;
  }
 
  .ConstructionBannerLastEdit{
@@ -38,18 +38,14 @@
   font-weight: 900;
   color: white;
   display: block;
-  text-align: center;
  }
  
  .Header_title{
-    margin-top: 80px;
+    margin-top: 120px;
     text-align: center;
     font-size: 50px;
     font-weight: 900;
     margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
   }
 
   .MainParaWarning{
@@ -60,9 +56,6 @@
     font-size: 20px;;
     width: 60%;
     max-width: 800px;  
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
     
   }
 
@@ -89,7 +82,4 @@
     text-align: center;
     font-size: 29px;
     font-weight: 900;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
   }
