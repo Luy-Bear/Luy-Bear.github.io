@@ -79,20 +79,20 @@
 
   .ImageDiv{
     width: 40%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 
 
-    border-width: 2px;
+    border-width: 10px;
     border-style: solid;
-    
+    border-color: brown;
     
   }
   
   .DebugImage{
     width: 100%;
     height: auto;
-    max-height: 70vh;
     object-fit: contain;
 
   }
