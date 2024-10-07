@@ -78,8 +78,7 @@
   /* DEBUG CSS STUFF */
 
   .ImageDiv{
-    width: 100%;
-    max-width: 40%; /* Adjust this value as needed */
+    width: 40%;
     margin: 20px auto;
     text-align: center;
 
