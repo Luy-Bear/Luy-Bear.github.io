@@ -60,12 +60,14 @@
   }
 
   .ConstructionPicture{
-    display:block;
+    display: inline-block;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 33%;
+    
+    /* NOW WHAT? */
+
     height: 70vh;
-    object-fit: contain;
+    object-fit: cover;
 
   }
 
