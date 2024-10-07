@@ -59,24 +59,6 @@
     
   }
 
-  .ConstructionPicture{
-    display:block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 70vh;
-    object-fit: contain;
-
-  }
-
-  .PictureHeader{
-    text-align: center;
-    font-size: 29px;
-    font-weight: 900;
-  }
-
-  /* DEBUG CSS STUFF */
-
   .ImageDiv{
     width: 40%;
     margin-left: auto;
@@ -86,13 +68,18 @@
 
     border-width: 10px;
     border-style: solid;
-    border-color: brown;
+    border-color: blue;
     
   }
-  
-  .DebugImage{
+
+  .ConstructionPicture{   
     width: 100%;
     height: auto;
     object-fit: contain;
+  }
 
+  .PictureHeader{
+    text-align: center;
+    font-size: 29px;
+    font-weight: 900;
   }
