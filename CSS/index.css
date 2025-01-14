@@ -125,6 +125,6 @@
 
 .aboutLink{
   text-decoration: none;  /* Removes the underline */
-  color: inherit;         /* Inherits the text color instead of using the default link color */
+  /* color: inherit;         Inherits the text color instead of using the default link color */
 }
 
