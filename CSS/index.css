@@ -82,4 +82,43 @@
     text-align: center;
     font-size: 29px;
     font-weight: 900;
+    margin-bottom: 0;  /* Remove all margins */
+    padding-bottom: 0; /* Remove all padding */
   }
+
+  .Link2WorkInProgress{
+    margin: 0;  /* Remove all margins */
+    padding: 0; /* Remove all padding */
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .Cont-btn {
+    display: block;  /* Makes the button a block element */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: white;
+    border-color: rgb(218, 163, 55);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 18px;
+    color: rgb(218, 163, 55);
+    box-shadow: 3px 5px 10px rgba( 0, 0, 0, .4);;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: background-color .15s,
+                opacity .15s;
+    font-size: 40px;
+    font-weight: 600;
+}
+.Cont-btn:hover{
+    background-color: rgb(218, 163, 55);
+    color: white
+}
+.Cont-btn:active{
+    opacity: 0.7;
+}
