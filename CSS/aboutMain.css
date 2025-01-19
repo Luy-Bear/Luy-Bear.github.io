@@ -36,7 +36,9 @@
     /* Change this to be relative to the floating menu height */
     position: relative; /* Add this to ensure proper stacking */
     border-width: 10px;
-
+    
+    margin-top: calc(90px); /* Adjust this value based on your FloatingMenu height */
+    
 }
 
 .AboutWebPage,
@@ -45,4 +47,5 @@
 .PersonalAbout,
 .ContactDetails{
     font-weight: 900;
+    
 }
