@@ -56,3 +56,30 @@
     font-weight: 900;
     border: 1px solid black;
 }
+
+.PastProjectCycleView{
+    /* TODO Make this look more like what it will */
+    display: grid;
+    grid-template-columns: 1fr 5fr 3fr 1fr; /*arrow, text, image, arrow*/
+    border: 3px solid red;
+    
+}
+
+.PastProjectCycleView > *{
+    border: 1px solid blue;
+    
+}
+.leftArrow,
+.rightArrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tempProjPhoto{
+    background-color: rgb(187, 187, 187);
+    padding:200px;
+    margin: 20px;
+    justify-self: flex-end;
+}

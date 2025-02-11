@@ -1,0 +1,3 @@
+- ADD A MAX-WIDTH FOR ULTRA WIDE SCREENS
+    -Prevents things from stretching too far (check coffee menu project from free code camp
+-
