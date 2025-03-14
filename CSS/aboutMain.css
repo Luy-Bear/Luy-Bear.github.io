@@ -1,4 +1,9 @@
+body{
+    background-color: pink;
+}
+
 .FloatingMenu{
+    
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
     position: fixed;
@@ -12,6 +17,8 @@
 }
 
 .Menubtn{
+  background-color: white;
+  
   border-style: solid;
   border-width: 1px;
   border-color: black;
@@ -39,7 +46,8 @@
     margin-top: calc(90px); /* Adjust this value based on your FloatingMenu height */
 
 }
-.ContentGridRows{
+
+.ContentGridRows{    
     display:grid;
     text-align: center;
     /* Change this to be relative to the floating menu height */
@@ -53,11 +61,17 @@
 .PastInfo,
 .PersonalAbout,
 .ContactDetails{
+    background-color: white;
+    
     font-weight: 900;
     border: 1px solid black;
+    
+    margin-bottom: 100px;
 }
 
 .PastProjectCycleView{
+    background-color: white;
+    
     /* TODO Make this look more like what it will */
     display: grid;
     grid-template-columns: 1fr 5fr 3fr 1fr; /*arrow, text, image, arrow*/
@@ -65,21 +79,44 @@
     
 }
 
-.PastProjectCycleView > *{
+.PastProjectCycleView{
+    background-color: white;
+    
     border: 1px solid blue;
     
 }
 .leftArrow,
 .rightArrow{
+    background-color: white;
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    margin:auto;
+    /* border-radius: 10000px; */
 
+}
+.leftArrow:active,
+.rightArrow:active{
+    background-color: rgb(223, 223, 223);
+}
+.leftArrow:hover,
+.rightArrow:hover{
+    background-color: white;
+    
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.4);
 }
 
 .tempProjPhoto{
+    background-color: white;
+    
     background-color: rgb(187, 187, 187);
     padding:200px;
     margin: 20px;
     justify-self: flex-end;
 }
+
+

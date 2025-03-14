@@ -1,3 +1,9 @@
 - ADD A MAX-WIDTH FOR ULTRA WIDE SCREENS
     -Prevents things from stretching too far (check coffee menu project from free code camp
--
+- On home page:
+    Finish the basic formatting of the contents
+    On the past project content... (NEED TO LEARN REACT OR JS FIRST)
+        - Update the images
+        - Update the learn more link value
+        - Update the text content
+        - Make the arrows highlightable adn clickable
