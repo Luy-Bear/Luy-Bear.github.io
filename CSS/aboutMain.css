@@ -119,4 +119,10 @@ body{
     justify-self: flex-end;
 }
 
-
+.SectionDesc{
+    padding-left: 15%;
+    padding-right: 15%;
+    word-break: keep-all;
+    text-align: left;
+    font-size: 20px;
+}
