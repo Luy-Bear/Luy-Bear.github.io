@@ -3,7 +3,6 @@ body{
 }
 
 .FloatingMenu{
-    
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
     position: fixed;
@@ -14,6 +13,7 @@ body{
     gap: 0;    
     top: 2px;
     z-index: 1000; /* Keeps the menu ontop of everything*/
+    height: 10vh;
 }
 
 .Menubtn{
@@ -34,6 +34,7 @@ body{
   color: black; /* Set text color */ 
   background-color: white;
 
+  line-height: 3vh;
   }
 .Menubtn:hover {
     background-color: #D0D0D0;
@@ -120,9 +121,11 @@ body{
 }
 
 .SectionDesc{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
     word-break: keep-all;
-    text-align: left;
+    /* text-align: left; */
     font-size: 20px;
+    width: 100wh;
 }
+
