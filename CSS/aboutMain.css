@@ -1,5 +1,5 @@
 body{
-    background-color: #01014c;
+    background-color: #071153e7;
 }
 
 .FloatingMenu{
@@ -11,17 +11,20 @@ body{
     /* border-style: solid;
     border-width: 2px;
     border-color: black; */
-    gap: 0;    
+    column-gap: 6px;    
     top: 2px;
     z-index: 1000; /* Keeps the menu ontop of everything*/
 }
 
 .Menubtn{
-  background-color: white;
+  background-color: #f0f0f0;
   
   border-style: solid;
-  border-width: 1px;
-  border-color: black;
+  border-width: 3px;
+  border-color: gold;
+  border-top: none;
+
+  border-radius: 0 0  10px 10px;
   text-align: center;
   font-weight:bolder;
   
@@ -32,7 +35,7 @@ body{
   padding: 1em 0; /* Add some vertical padding for better appearance */
   text-decoration: none; /* Remove underline from links */
   color: black; /* Set text color */ 
-  background-color: white;
+  background-color: f0f0f0;
 
   /* line-height: 3vh;
 
@@ -55,7 +58,7 @@ body{
     text-align: center;
     /* Change this to be relative to the floating menu height */
     position: relative; /* Add this to ensure proper stacking */
-    border: 2px solid black;
+    border: 2px solid ;
 }
 
 
@@ -64,16 +67,20 @@ body{
 .PastInfo,
 .PersonalAbout,
 .ContactDetails{
-    background-color: white;
+    background-color: #f0f0f0;
     
     font-weight: 900;
     border: 1px solid black;
     
     margin-bottom: 100px;
+
+    border-width: 3px;
+    border-radius: 13px;
+    border-color: gold;
 }
 
 .PastProjectCycleView{
-    background-color: white;
+    background-color: f0f0f0;
     
     /* TODO Make this look more like what it will */
     display: grid;
@@ -83,14 +90,14 @@ body{
 }
 
 .PastProjectCycleView{
-    background-color: white;
+    background-color: f0f0f0;
     
-    border: 1px solid blue;
+    border: 1px solid rgb(120, 120, 175);
     
 }
 .leftArrow,
 .rightArrow{
-    background-color: white;
+    background-color: f0f0f0;
     
     display: flex;
     align-items: center;
@@ -108,13 +115,13 @@ body{
 }
 .leftArrow:hover,
 .rightArrow:hover{
-    background-color: white;
+    background-color: f0f0f0;
     
     box-shadow: 0 1px 8px 0 rgba(0,0,0,0.4);
 }
 
 .tempProjPhoto{
-    background-color: white;
+    background-color: f0f0f0;
     
     background-color: rgb(187, 187, 187);
     padding:200px;
