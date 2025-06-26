@@ -174,13 +174,14 @@ body {
     color: #333;
 }
 
-.project-WIP-Tag {
+.project-Status-Tag {
     color: #c5a413;
     font-style: italic;
-    margin-bottom: 20px;
 }
 
 .project-description {
+    
+    margin-top: 15px;
     color: #666;
 }
 
