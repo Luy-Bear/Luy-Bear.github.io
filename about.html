@@ -1,51 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="CSS/aboutMain.css">
-        <meta charset = "utf-8"/>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-        <title>About Pedro Rodrigues</title>
+        <title>Pedro Rodrigues' Portfolio</title>
+        <link rel="stylesheet" href="CSS/aboutMain.css">
     </head>
     <body>
-        <!-- DIV FOR MENU BAR -->
-        <div class="FloatingMenu">
-            <p></p>
-            <a href="about.html" class = "Menubtn">Home</a>
-            <a class = "Menubtn">All Projects</a>
-            <a class = "Menubtn">Experience</a>
-            <a class = "Menubtn">Contact</a>
-            <p></p>
+        <!-- Navigation Bar -->
+        <div class="nav-container">
+            <div class="nav-bar">
+                <div class="nav-item active" onclick="showSection('general')">General</div>
+                <div class="nav-item" onclick="showSection('projects')">Projects</div>
+                <div class="nav-item" onclick="showSection('experience')">Experience</div>
+            </div>
         </div>
-        <!-- END OF DIV MENU -->
-        
 
-
-
-
-        <!-- HOME PAGE CONTENT -->
-        <!-- CONTAINER OF CONTAINERS -->
-        <div class = "ContentGridColumns">
-            <!-- About Web Page -->
-            <div class="ContentSection Left">
-                <div class="SectionTitle">Welcome</div>
-                <div class="SectionDesc">
-                    This website and the various webpages are a work in progress. in which I attempt to learn and apply HTML, JS and CSS skills whilst demonstrating and advertising my other skills and projects.
-                    You will find more within these webpages as time continues. Eventually, these webpages will include all my past projects, in both a longer and shorter form, my employment history, my academic history and successes and forms of contacting me for projects or employment.
-                    Id like to thank you for your consideration and patience as I continue to develop the webpage and apologise for its current crude nature.</div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- General Section -->
+            <div id="general" class="content-section active">
+                <div class="welcome-section">
+                    <div class="profile-image"></div>
+                    <div class="welcome-text">
+                        <h1>Welcome!</h1>
+                        <p>This current website is a work in progress, which I will develop as I continue to improve and learn my HTML, JS and CSS skills.</p>
+                        <p>The contents of these webpages will demonstrate and advertise my other skills, former projects and current projects. As well as previous experiences both academic and employment experiences.</p>
+                        <p>As time continues, the webpages contents will grow and improve. Thank you for taking this into consideration.</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="ContentSection Right">Past Projects</div>
-            
-            <div class="ContentSection Left">Facts About Me - Education etc</div>
-            
-            <div class="ContentSection Right">About Me</div>
-            
-            <div class="ContentSection Left">Bottom menu for contacts</div>
-        </div><!-- END OF CONTENT -->
+            <!-- Projects Section -->
+            <div id="projects" class="content-section">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">A responsive portfolio website built with HTML, CSS, and JavaScript showcasing my web development skills and projects.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Project Two</h3>
+                        <p class="project-description">Description of second project. Add details about technologies used, challenges overcome, and results achieved.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Project Three</h3>
+                        <p class="project-description">Description of third project. Include information about the project scope, role, and key accomplishments.</p>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Experience Section -->
+            <div id="experience" class="content-section">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-item">
+                    <h3 class="experience-title">Web Developer</h3>
+                    <p class="experience-company">Company Name • 2023 - Present</p>
+                    <p class="experience-description">Developed and maintained responsive websites using HTML, CSS, and JavaScript. Collaborated with design teams to implement user-friendly interfaces and optimize website performance.</p>
+                </div>
+                <div class="experience-item">
+                    <h3 class="experience-title">Junior Developer</h3>
+                    <p class="experience-company">Previous Company • 2022 - 2023</p>
+                    <p class="experience-description">Assisted in the development of web applications and gained experience in front-end technologies. Participated in code reviews and contributed to team projects.</p>
+                </div>
+                <div class="experience-item">
+                    <h3 class="experience-title">Education</h3>
+                    <p class="experience-company">University/Institution Name • Year</p>
+                    <p class="experience-description">Relevant degree or certification in computer science, web development, or related field. Coursework included programming fundamentals, web technologies, and software engineering principles.</p>
+                </div>
+            </div>
+        </div>
 
+        <script>
+            function showSection(sectionName) {
+                // Hide all sections
+                const sections = document.querySelectorAll('.content-section');
+                sections.forEach(section => {
+                    section.classList.remove('active');
+                });
+
+                // Remove active class from all nav items
+                const navItems = document.querySelectorAll('.nav-item');
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Show selected section
+                document.getElementById(sectionName).classList.add('active');
+
+                // Add active class to clicked nav item
+                event.target.classList.add('active');
+            }
+        </script>
     </body>
 </html>
