@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e8e8e8;
+    background-color: #819A91;
     color: #333;
     line-height: 1.6;
 }
@@ -18,8 +18,8 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #d0d0d0;
-    border-bottom: 2px solid #999;
+    background-color: #6c817a;
+    border-bottom: 2px solid #4a5c56;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -34,8 +34,8 @@ body {
     flex: 1;
     text-align: center;
     padding: 15px 20px;
-    background-color: #d0d0d0;
-    border-right: 1px solid #999;
+    background-color: #6c817a;
+    border-right: 1px solid #4a5c56;
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-weight: 500;
@@ -48,11 +48,11 @@ body {
 }
 
 .nav-item:hover {
-    background-color: #c0c0c0;
+    background-color: #D1D8BE;
 }
 
 .nav-item.active {
-    background-color: #f0f0f0;
+    background-color: #EEEFE0;
     color: #222;
 }
 
@@ -76,7 +76,7 @@ body {
 .profile-image {
     width: 300px;
     height: 300px;
-    background-color: #888;
+    background-color: #26413C;
     border-radius: 50%;
     flex-shrink: 0;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -89,14 +89,14 @@ body {
 .welcome-text h1 {
     font-size: 3em;
     margin-bottom: 30px;
-    color: #333;
+    color: #e2dfdf;
     font-weight: 300;
 }
 
 .welcome-text p {
     font-size: 1.1em;
     margin-bottom: 20px;
-    color: #555;
+    color: #e2dfdf;
     text-align: justify;
 }
 
@@ -113,7 +113,7 @@ body {
 .section-title {
     font-size: 2.5em;
     margin-bottom: 30px;
-    color: #333;
+    color: #fcf7f7;
     font-weight: 300;
     text-align: center;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .project-card {
-    background-color: #f5f5f5;
+    background-color: #ececec;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -141,19 +141,19 @@ body {
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
 
 .project-image {
     width: 400px;
     height: 300px;
-    background-color: #ccc;
+    background-color: #8a918e;
     border-radius: 8px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #888;
+    color: #d8d8d8;
     font-size: 0.9em;
     border: 2px solid #bbb;
 }
@@ -175,7 +175,7 @@ body {
 }
 
 .project-Status-Tag {
-    color: #c5a413;
+    color: #c0a31f;
     font-style: italic;
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 .experience-item {
-    background-color: #f5f5f5;
+    background-color: #ececec;
     padding: 30px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -196,7 +196,7 @@ body {
 
 .experience-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
 .experience-title {
     font-size: 1.3em;
