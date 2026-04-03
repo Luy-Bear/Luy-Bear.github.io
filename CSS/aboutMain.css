@@ -13,7 +13,7 @@ body{
 }
 
 *{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: white;
 
     margin: 0;
@@ -21,11 +21,11 @@ body{
 }
 
 .NavBar{
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
-    gap: 2vw;
+    gap: 0.2vw;
     position: sticky;
     top:0;
 
