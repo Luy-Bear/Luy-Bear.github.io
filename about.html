@@ -7,90 +7,53 @@
         <link rel="stylesheet" href="CSS/aboutMain.css">
     </head>
     <body>
-        <!-- Navigation Bar -->
-        <div class="nav-container">
-            <div class="nav-bar">
-                <div class="nav-item active" onclick="showSection('general')">General</div>
-                <div class="nav-item" onclick="showSection('projects')">Projects</div>
-                <div class="nav-item" onclick="showSection('experience')">Experience</div>
-            </div>
+        <!-- NavBars -->
+        <div class = "NavBar">
+            <div class = "NavBarOpt" id="HomeNavOpt">Home</div>
+            <div class = "NavBarOpt" id="ProjNavOpt">Projects</div>
+            <div class = "NavBarOpt" id="AboutNavOpt">About Me</div>
         </div>
 
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- General Section -->
-            <div id="general" class="content-section active">
-                <div class="welcome-section">
-                    <div class="profile-image"></div>
-                    <div class="welcome-text">
-                        <h1>Welcome!</h1>
-                        <p>This current website is a work in progress, which I will develop as I continue to improve and learn my HTML, JS and CSS skills.</p>
-                        <p>The contents of these webpages will demonstrate and advertise my other skills, former projects and current projects. As well as previous experiences both academic and employment experiences.</p>
-                        <p>As time continues, the webpages contents will grow and improve. Thank you for taking this into consideration.</p>
-                    </div>
-                </div>
+        <!-- Landing Div -->
+         <div class = "LandingDiv">
+            <p class = "NameP">Pedro's Porfolio</p>
+            <div class = "WelcomeMessageDiv">
+                <p class = "WelcomeMessageP">Welcome to my portoflio website</p>
+                <p class = "WelcomeMessagePDesc">This portfolio contains information about me and my projects</p>
             </div>
-
-            <!-- Projects Section -->
-            <div id="projects" class="content-section">
-                <h2 class="section-title">Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3 class="project-title">Portfolio Website</h3>
-                        <p class="project-description">A responsive portfolio website built with HTML, CSS, and JavaScript showcasing my web development skills and projects.</p>
-                    </div>
-                    <div class="project-card">
-                        <h3 class="project-title">Project Two</h3>
-                        <p class="project-description">Description of second project. Add details about technologies used, challenges overcome, and results achieved.</p>
-                    </div>
-                    <div class="project-card">
-                        <h3 class="project-title">Project Three</h3>
-                        <p class="project-description">Description of third project. Include information about the project scope, role, and key accomplishments.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Experience Section -->
-            <div id="experience" class="content-section">
-                <h2 class="section-title">Experience</h2>
-                <div class="experience-item">
-                    <h3 class="experience-title">Web Developer</h3>
-                    <p class="experience-company">Company Name • 2023 - Present</p>
-                    <p class="experience-description">Developed and maintained responsive websites using HTML, CSS, and JavaScript. Collaborated with design teams to implement user-friendly interfaces and optimize website performance.</p>
-                </div>
-                <div class="experience-item">
-                    <h3 class="experience-title">Junior Developer</h3>
-                    <p class="experience-company">Previous Company • 2022 - 2023</p>
-                    <p class="experience-description">Assisted in the development of web applications and gained experience in front-end technologies. Participated in code reviews and contributed to team projects.</p>
-                </div>
-                <div class="experience-item">
-                    <h3 class="experience-title">Education</h3>
-                    <p class="experience-company">University/Institution Name • Year</p>
-                    <p class="experience-description">Relevant degree or certification in computer science, web development, or related field. Coursework included programming fundamentals, web technologies, and software engineering principles.</p>
-                </div>
-            </div>
+            <img class="PhotoOfMe" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Self_portrait_of_Edward_Sheriff_Curtis.jpg/960px-Self_portrait_of_Edward_Sheriff_Curtis.jpg">
         </div>
 
-        <script>
-            function showSection(sectionName) {
-                // Hide all sections
-                const sections = document.querySelectorAll('.content-section');
-                sections.forEach(section => {
-                    section.classList.remove('active');
-                });
+         <!-- Github & LinkedIn Section -->
+          <div class="AltAccountDiv">
+            <div class ="AccountDiv">
+                <img class="GitHubLogo" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
+                Github
+            </div>
+            <div class ="AccountDiv">
+                <img class="LinkedInLogo" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg">
+                LinkedIn
+            </div>
+          </div>
 
-                // Remove active class from all nav items
-                const navItems = document.querySelectorAll('.nav-item');
-                navItems.forEach(item => {
-                    item.classList.remove('active');
-                });
+          <!-- Notable Skills -->
+          <div class="NotableSkills">
+            <p>Notable Skills</p>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+            </ul>
+          </div>
 
-                // Show selected section
-                document.getElementById(sectionName).classList.add('active');
+          <!-- Notable Projects -->
+           <div class="NotableProject">
+                PROJECTS HERE
+           </div>
 
-                // Add active class to clicked nav item
-                event.target.classList.add('active');
-            }
-        </script>
+           <!-- Quick Bio -->
+            <div class="QuickBio">
+                Quick Bio Section
+            </div>
     </body>
 </html>
